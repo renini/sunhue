@@ -15,8 +15,7 @@ import logging
 from phue import Bridge
 
 # create logger with 'sunwait'
-logger = logging.getLogger('sunwait')
-#fh = logging.FileHandler('sunwait.log')
+logger = logging.getLogger('sunhue')
 fh = logging.FileHandler('/tmp/sunhue.log')
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 fh.setFormatter(formatter)
